@@ -1,0 +1,48 @@
+Hey there!
+
+None of the code in this folder is particular interesting or useful.
+This is the code that I ended up redesigned over the past three years.
+If it interests you, you can look in here and see how things have changed.
+
+All of the new modules are strictly better and more optimized versions of what you will see here.
+With that in mind I would like to give you a few tips of advice that I learned from fiddling with these classes.
+
+- CustomEncoderAutoDrive02
+    - I spent hours looking at this code trying to figure out what was wrong with it.
+      For some reason it just wouldn't work. The encoder would never return what they should and so I went through 3 versions of this code.
+      v00, v01, and v02 had me rethinking everything I had done and yet I still couldn't figure a good solution.
+      As it turns out, my encoders were plugged into the wrong motors so they were providing the code with false information.
+      I only figured this out by using debugging methods like posting the positions of the encoders to the phone screen.
+      This is incredibly useful as you can see what variables you code is using while running the program.
+      If that don't mean much to you now, don't worry, I'll talk about it later.
+
+    - Also, be creative with your files names - 'CustomEncoderAutoDrive02' isn't the easiest thing to say - Maybe try to shorten it :)
+
+    tl;dr - Triple check that your hardware is plugged in correctly and use debugging techniques to fix your code rather than just redesigning and starting form scratch.
+            Don't name your files stupid things.
+
+- OldDrive
+    - My note for this one is to always think about a better way of doing something.
+      Your first choice isn't always going to the the fastest or the best, so finding a way to optimize your code to speed up the robot is crucial
+      My first attempt here turned out to be cumbersome to drive and took a lot of focus away from the field and put it into using the controller.
+      Making your controller feel natural and seamless is super crucial. An issue we had with this code (as well as moving our lift in the 2017-2018 year) was the controls weren't intuitive.
+      It's the job of both the programmers and the drivers to communicate with one another and find the best solution.
+      I've spent too much time designing code for myself and not even considering who might be using it.
+
+    tl;dr - You can always improve your code and talk with the people that will be using the code.
+
+- TimeAuto
+    - This one is easy -- DON'T USE TIME AUTONOMY
+      It's garbage, doesn't produce good results, and you will never be able to do anything precisely.
+
+    - With most things I've done in robotics, this was done hastily right before a competition.
+      This code was designed at 2am the night before our 2016-2017 qualifier and it was done like shit.
+      It is fun to laugh about staying up until 5am the night before a competition, but it takes a huge toll on yourself.
+      During the 3 years I was on the team I did not get a single good night's worth of rest before a competition and it is brutal -- don't do it to yourself
+      You will be so much more useful during the competition if you aren't slumped over every time there is a minute of rest.
+
+    tl;dr - Do your programing ahead of time. Even if you have to build a practice robot that has limited features, test you code weeks before a competition.
+            Sleep is important. Go to bed at a reasonable time the night before a competition (1am is fine but don't push it. 7am roll around quickly).
+
+
+~Daniel Prohaska (NA Class of 2018 || UVA Class of 2022)

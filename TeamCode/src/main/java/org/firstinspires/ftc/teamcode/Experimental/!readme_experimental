@@ -1,0 +1,15 @@
+Hey there!
+
+This folder is pretty cool. You should put all of your testing classes in here to keep them separate from your main stuff.
+Currently all of the classes in this folder are temporarily disabled. Comment out the @Disabled text to enable the class.
+Files in here should not be active at all times. You can use the '@Disabled' command before you instantiate the class to prevent it from showing up on the phones.
+    Need this an import for it to work! ---> import com.qualcomm.robotcore.eventloop.opmode.Disabled;
+
+When testing a class here, make sure to output to your screen the variables you are trying to measure.
+Have your gyro print what its position or have your color sensor spit out what it sees.
+This will be very useful in determining how you can implement new sensors and how to make the most out of the old ones.
+
+The titles are fairly self explanatory so just mess around with them and see what they do! You will learn a lot from just getting your hands dirty.
+
+~Daniel Prohaska (NA Class of 2018 || UVA Class of 2022)
+

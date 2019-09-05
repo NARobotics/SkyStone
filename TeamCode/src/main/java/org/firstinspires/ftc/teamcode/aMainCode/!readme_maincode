@@ -1,0 +1,12 @@
+Hey there!
+
+Not much to say about this one but....
+This is the folder where all of the code you want to run in a competition should be stored.
+
+My one note that I learned from my last crack at autonomous code is that -- class extensions -- are VERY usefull.
+If you look at the 'AutoRedCrypto' and 'AutoVuMarkPathing' code, you will notice they are copies of one another with an adition 10 lines of code.
+DON'T DO THAT. A simple solution (that is easier tha copying one class into the other) is to have 'AutoRedCrypto' extend 'AutoVuMarkPathing'.
+This gives the new class access to all of the extended class' methods. It will take a little bit of extra work to turn things into methods, but it will be 100times easier to read.
+---NOTE--- If you do this, your methods need to be either 'public' or 'protected' and cannot be 'private'.
+
+~Daniel Prohaska (NA Class of 2018 || UVA Class of 2022)
